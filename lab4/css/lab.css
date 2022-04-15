@@ -53,8 +53,6 @@ h6{
 }
 
 .image{
-  border-color: #e2725b;
-  border-width: medium;
   display:flex ;
   justify-content: center;
  }
@@ -62,4 +60,8 @@ h6{
    color: #e2725b;
    font-size: 20px;
 
+ }
+ .image2{
+   display:flex ;
+   justify-content: center;
  }
