@@ -3,7 +3,6 @@
 // author Reece Mejia.
 // date:April 20,2022.
 
-
 // Define Variables
 make = "Kia";
 model ="Soul";
