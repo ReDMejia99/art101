@@ -26,3 +26,6 @@ var result = array.map(function(x){
 console.log("Array with an addition of 2 to each number:", result);
 
 // [4,8,20,22]
+
+var outputEl = document.getElementById("output");
+outputEl.innerHTML = result;
