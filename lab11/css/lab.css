@@ -1,0 +1,42 @@
+p {
+    color:#87a96b;
+    font-size: 18px;
+    text-align:center;
+  }
+
+    body {
+        background-color: #FAC898;
+        margin-left: 100px;
+        margin-right: 100px;
+      }
+      h1{
+        color: #e2725b;
+        font-size: 40px;
+        text-align: center;
+      }
+      h3{
+        color: #78866b;
+        text-align: center;
+      }
+      h4{color: #78866b;
+      text-align: center;
+
+    }
+
+      #pic{
+        border-color: #e2725b;
+        border-width: medium;
+        display:flex ;
+        justify-content: center;
+      }
+
+      .normal{
+        color: #78866b;
+        text-align: center;
+        font-size: 20px;
+      }
+      .special{
+        color: red;
+        text-align: center;
+        font-size: 30px;
+      }
