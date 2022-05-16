@@ -1,7 +1,7 @@
-// Title: Lab 10 JavaScript Events and Forms
-// Description: In this lab my partner and I learned how to create a function that would take information inputted within a prompted window and replace our output with that information.
+// Title: Lab 12 Conditionals.
+// Description: In this lab my partner and I worked with functions and combined them with conditionals.
 // author: Reece Mejia.
-// date:May 9,2022.
+// date:May 16,2022.
 
 
 // Return Gryffindor, Ravenclaw, Slytherin, and Hufflepuff
