@@ -4,8 +4,7 @@
 // date:May 16,2022.
 
 
-// Return Gryffindor, Ravenclaw, Slytherin, and Hufflepuff
-// depending on length mod 4
+// Return District 1, District 2, District 12, and District 11.
 function theReaping(str) {
 len = str.length;
 mod = len % 4;
