@@ -4,30 +4,44 @@
 // date:May 18,2022.
 
 
+outputEl = document.getElementById("output");
+myButton = document.getElementById("button");
 
 
-function fizzBuzzBoom (maxNums, factorobj) {
+function fizzBuzzBoom() {
+for (i = 1; i <= 200; i++){
+  first = i % 3;
+  second = i % 5;
+  third = i % 7;
+  fourth = i % 105;
+  fifth = i % 22;
+  firststr = "";
+  secondstr = "";
+  thirdstr = "";
+  fourthstr = "";
+  fifthstr = "";
 
-for (var num=0; num<maxNums; num++)
+  if (!first) {
+  	firststr = "Fizz!";
+  }
+  if (!second){
+  	secondstr = "Buzz!";
+  }
+  if (!third){
+  	thirdstr = "Boom!";
+  }
+  if (!fourth){
+  	fourthstr= "Bam!";
+  }
+  if (!fifth){
+    fifthstr= "Whoah!";
+  }
+  outstr = firststr + secondstr + thirdstr + fourthstr + fifthstr + "<br>";
 
-var outputStr="";
-for (var factor in factorObj) {
-if (num % factor == 0){
-outputStr += factorObj[factor];
+  $("#output").append(i.toString()+":"+outstr+"<hr>");
+  }
 }
-}
-if (outputstr) {
-outputStr = " - " + outputstr + "!";
-}
-outputToPage(num.toString() + outputStr)
-}
+myButton.addEventListener("click", fizzBuzzBoom);
 
-function reportError(str){
-}
-outputStr.innerHTML = "<div class='error'>" + str + "</div>";
-document.getElementBvId ("submit") .addEventListener ("click", fizzBuzzBoom);
-var max = document. getElementById ("max"). value;
-console.log("max:", max)
-if (! max){
-reportError("you must provide a maximum")
-}
+button.style.backgroundColor = "#EDCB9C";
+button.style.color = "#E05834";

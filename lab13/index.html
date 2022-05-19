@@ -5,57 +5,63 @@
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 	   		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="js/lab.js" defer></script>
+
+				<style>
+				img{
+					width:300px;
+					padding: 1px;
+					border: 10px solid #8FC2DF;
+				}
+				</style>
     </head>
 <body>
 	<div id = "content">
 
 			<div id = "title">
-				<h5> Lab 12 Conditionals </h5>
+				<h1> Lab 13 Loops </h1>
 		</div>
 
 
 			<div id = "pic">
-			<img src ="img/" width="300">
+				<div id = "picture">
+			<img src ="img/coaster.jpeg" width="300">
 				</div>
+			</div>
+
+			<div id = "pic">
+				<div id = "picture">
+			<img src ="img/fruity.jpeg" width="300">
+				</div>
+			</div>
+
+
 
 
 			<h2>Challenges</h2>
-			<p>   </p>
-			<h2> Problems</h2>
-			<p>    </p>
-			<h2> Results</h2>
-			<p>   </p>
 
-			Where should we stop?
-			<input type="number" min=0 max="200" id="max"><br>
-			Which factors should print what?<br>
-			<table>
-				<tr>
-						<th>Factor</th>
-						<th>Prints what?</th>
-			</tr>
-			<tr>
-			<td><input type="number"min=0 max="200" id="num0"></td>
-			<td><input tvpe="text" id="text0"></td>
-			</tr>
-			<tr>
-					<td><input type="number" min=0 max="200" id="num1"></td>
-					<td><input type="text" id="text1"></td>
-			</tr>
-			<tr>
-					<td><input type="number" min=0 max="200" id="num2"></td>
-					<td><input tvpe="text" id="text2"></td>
-			</tr>
-			<tr>
-				<td><input type="number"min=0 max="200" id="num3"></td>
-				<td><input type="text" id="text3"></td>
-			</tr>
-			</table>
-			<button id="submit">Run</button>
-			</div>
-			<h3>Output</h3>
-			<div id="output"></div>
+			<div class = "p1">
+			<p1> We had a rough time trying to figure out what specific coding structure to use in this lab because originally the one from the examples allowed us to create input boxes but we did not know how to use it to connect to our loop function so we decided to try a different method in the form of a button instead of input forms.  </p>
+		</div>
 
+			<h3> Problems</h3>
+
+			<div class = "p2">
+			<p2>  Once we created our button we had trouble getting it to work so it could run the function but eventually we figured out it had to do with defining variable in the function and then adding an event listener.  </p>
+		</div>
+
+			<h4> Results</h4>
+
+			<div class = "p3">
+			<p3> We were able to create a working button that would perform our functions task of finding and replacing multiples of certain numbers with words and then printing these lists. </p>
+		</div>
+
+
+						<div id = "butt">
+					<button id = "button">Click to See What Factors Print What!</button>
+				</div>
+		<div id = "output">
+			<h6> Output</h6>
+		</div>
 
 
 
