@@ -1,10 +1,10 @@
 // Title: Lab 15 AJAX.
-// Description: We practiced using AJAX along
+// Description: We practiced using AJAX in our js code in order to ouput information from our chosen API.
 // author: Reece Mejia.
-// date:May ,2022.
+// date:May 25,2022.
 
 
-var endpoint = "http://www.yerkee.com/api/fortune/wisdom";
+var endpoint = "https://www.yerkee.com/api/fortune/wisdom";
 
 function getAjax(){
   $.ajax({
