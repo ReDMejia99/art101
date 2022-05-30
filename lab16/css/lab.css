@@ -1,0 +1,180 @@
+
+body {
+  background-color: #faa499;
+  background-image: linear-gradient(319deg, #faa499 0%, #f7dd85 37%, #ffc55c 100%);
+}
+
+
+      h1{
+        color:  #A19AD1;
+        font-size: 40px;
+        text-align: center;
+          line-height: 60px;
+      }
+      h2{
+        color: #A19AD1;
+        font-size: 30px;
+        text-align: center;
+        line-height: 60px;
+
+      }
+      .p1{
+        color: #A19AD1;
+        font-size: 25px;
+        text-align: center;
+        line-height: 50px;
+      }
+      h3{
+        color: #A19AD1;
+        font-size: 30px;
+        text-align: center;
+
+      }
+      .p2{
+        color:#A19AD1;
+        font-size: 25px;
+        text-align: center;
+        line-height: 50px;
+      }
+      h4{
+        color: #A19AD1;
+        font-size: 30px;
+        text-align: center;
+      }
+      .p3{
+        color: #A19AD1;
+        font-size: 25px;
+        text-align: center;
+        line-height: 50px;
+      }
+      h6{
+        color: #8CBF6F;
+        font-size: 25px;
+        text-align: center;
+      }
+      h5{
+        color: #8CBF6F;
+        font-size: 25px;
+        text-align: center;
+      }
+      #activate{
+        font-size: 25px;
+        text-align: center;
+      }
+
+
+ {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #e3edf7;
+    font-family: sans-serif;
+}
+.container {
+    margin: 100px auto;
+    width: 600px;
+    height: 600px;
+    background: #f6b8cd;
+    position: relative;
+    box-shadow: 1px 1px 1px #a6a7a4,
+                -1px -1px 1px #a6a7a4,
+                -1px 2px 2px #a6a7a4,
+                2px -2px 2px #a6a7a4;
+  animation: animate-container 1s forwards;
+}
+
+@keyframes animate-container {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.swim-pool-container {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 60%;
+    height: 30%;
+    border: 15px solid #e9ebea;
+    transform: rotate(20deg);
+    z-index: 2;
+    background-color: #8ac6e2;
+   animation: animate-container 1s forwards;
+  opacity: 0;
+  animation-delay: 1s;
+}
+
+.swim-pool-container-left {
+    height: 100%;
+    width: 10%;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    background: #35afdc;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+   animation: animate-container 1s forwards;
+  opacity: 0;
+  animation-delay: 2s;
+
+}
+.swim-pool-container-right {
+    width: 100%;
+    height: 20%;
+    background-color: #dbdad8;
+    transform-origin: bottom;
+    z-index: 5;
+    background: #35afdc;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+   animation: animate-container 1s forwards;
+  opacity: 0;
+  animation-delay: 3s;
+}
+.tyre {
+    border: 10px solid #e0a9b5;
+    width: 10%;
+    height: 20%;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 1px 1px 2px #147dbd,
+    -1px -1px 2px #147dbd;
+   animation: animate-container 1s forwards;
+  opacity: 0;
+  animation-delay: 4s;
+}
+.tyre2 {
+    left: 20%;
+    top: 30%;
+}
+
+.tyre1 {
+    left: 50%;
+    top: 50%;
+}
+.stairs {
+    z-index: 20;
+    left: -10%;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    border: 3px solid #ababab;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    justify-content: space-evenly;
+   animation: animate-container 1s forwards;
+  opacity: 0;
+  animation-delay: 5s;
+}
+
+.stairs div {
+    width: 2px;
+    height: 100%;
+    background-color: #ababab;
+}
